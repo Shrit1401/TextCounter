@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h3>Live Character Counter</h3>
+        <textarea onkeyup="CountLetters();" placeholder="Write your text here..."></textarea>
+        <p>Total Characters : <span class="count" >0</span></p>
+        <p><a onclick="Rand()">Genrate Random</a></p>
+    </div>
+
+    <div class="random">
+        <h3>How much words you want?</h3>
+        <input type="number">
+        <a onclick="RandomTextGeneate()">Go</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
